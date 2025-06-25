@@ -15,7 +15,7 @@ function startBot(spawnHex) {
   });
 
   ws.on('message', (data) => {
-    // можно добавить логика реакции на сервер
+    // Можно обработать сообщения
   });
 
   ws.on('close', () => {
