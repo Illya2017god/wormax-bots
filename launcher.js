@@ -31,7 +31,7 @@ module.exports = startBot;
 
 // 📜 launcher.js
 const fs = require('fs');
-const startBot = require('./bot');
+const startBot = require('./bots');
 
 const spawnHexes = fs.readFileSync('./spawnList.txt', 'utf-8')
   .split('\n')
